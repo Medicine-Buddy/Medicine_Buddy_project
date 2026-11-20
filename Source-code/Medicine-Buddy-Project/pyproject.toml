@@ -1,0 +1,22 @@
+
+[project]
+name = "medicine-buddy"
+version = "2.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "pydantic",
+    "python-dotenv",
+    "pg8000",
+    "langchain>=1.0.0",
+    "langchain-groq",
+    "langchain-google-genai"
+]
+
+[tool.vercel]
+entrypoint = "backend.app.main:app"
+
+[tool.vercel.fastapi.static]
+exclude = true
