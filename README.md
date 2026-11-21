@@ -244,4 +244,4 @@ The deployment must use the existing project build configuration. Do not create 
 **Medicine Buddy**  
 An academic project developed as part of the MSc Artificial Intelligence programme.
 
-**Repository:** https://github.com/sakshiSE/medicine_buddy
+**Repository:** https://github.com/Medicine-Buddy/Medicine_Buddy_project.git
